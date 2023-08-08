@@ -1,0 +1,493 @@
+body{
+   
+    background-color: rgb(0, 0, 0);
+    color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+header{
+   
+    background-color: rgb(32, 31, 31);
+    
+    
+
+    
+}
+
+li{
+    
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    
+
+}
+
+.videi{
+    padding: 20px;
+}
+
+li :hover{
+    color: rgb(229, 255, 0);
+    text-decoration: underline;
+}
+
+
+
+#bgslider { 
+	overflow: hidden; 
+
+}
+#bgslider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+
+#bgslider figure img { 
+	width: 20%; 
+	float: left; 
+	height:750px;
+
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+    15% { left: 0%; }
+    20% { left: -100%; }
+    35% { left: -100%; }
+    40% { left: -200%; }
+    55% { left: -200%; }
+    60% { left: -300%; }
+    75% { left: -300%; }
+    80% { left: -400%; }
+    95% { left: -400%; }
+    100% { left: 0%; }
+
+    }
+
+    .product{
+        height: 300px;
+        width: 300px;
+        padding: 1rem;
+        
+        top:-50px; 
+        left:-35px; 
+        display:block; 
+        z-index:999; 
+        cursor: pointer; 
+        -webkit-transition-property: all; 
+        -webkit-transition-duration: 0.3s; 
+        -webkit-transition-timing-function: ease; 
+        } 
+        
+        .product:hover { 
+        transform: scale(1.1); 
+        
+    }
+
+    .opis{
+        text-align: center;
+        
+    }
+
+    #opis{
+        text-shadow: 0 0 3px #fa8c8c, 0 0 5px #8d8df8;
+
+    }
+
+    h1{
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+    footer{
+        background-color: rgb(54, 53, 53);
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    a{
+        color: rgb(255, 255, 255);
+    }
+
+    .icons{
+        padding-bottom: 50px;
+        padding-top: 50px;
+        background-color: rgb(31, 29, 29);
+    }
+
+    .kontakt{
+        padding-top: 50px;
+    }
+    
+    #bottom{ 
+        background-color: rgb(54,53,53); 
+        text-align: center;
+    }
+
+    .okusi{
+        padding-top: 230px;
+        padding-bottom: 230px;
+        font-size: 25px;
+        background-image: url(slike\ za\ naslovnu/legends.jpg); /* slika preuzeta s:https://posterissim.com/en/movie/654-last-supper-with-hollywood-legends.html */
+        background-position: center;
+        background-size: cover;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.699);
+        background-blend-mode: lighten;
+        text-align: top;
+        text-align: center;
+    } 
+
+    section{
+        padding-left: 25%;
+        padding-right: 25%;
+       
+    }
+   
+#sastojci{
+    text-align: center;
+     font-family: Arial, sans-serif;
+}
+
+#pulp:hover{
+   
+        content: url("slike\ postera/pulp.jpg");
+     } 
+
+#once:hover{
+
+    content: url("slike\ postera/once.jpg");
+
+} 
+#matilda:hover{
+
+    content: url("slike\ postera/matilda.jpg");
+
+} 
+#kum:hover{
+
+    content: url("slike\ postera/godfather.jpg");
+
+} 
+#amelie:hover{
+
+    content: url("slike\ postera/amelie.jpg");
+
+} 
+#breakfast:hover{
+
+    content: url("slike\ postera/breakfast.jpg");
+
+} 
+#silence:hover{
+
+    content: url("slike\ postera/silence.jpg");
+
+} 
+#hp:hover{
+
+    content: url("slike\ postera/hp cover.jpg");
+
+} 
+#rat:hover{
+
+    content: url("slike\ postera/rat.jpg");
+
+} 
+#lady:hover{
+
+    content: url("slike\ postera/lady and a tramp.jpeg");
+
+} 
+#casa:hover{
+
+    content: url("slike\ postera/casablanca.jpg");
+
+} 
+
+#timballo:hover{
+
+    content: url("slike\ postera/big night.jpg");
+
+} 
+
+#tekst{
+    color: gold;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Arial, sans-serif;
+}
+
+#onama{
+    background-image: url("slike\ za\ naslovnu/stol.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 350px;
+    padding-bottom: 350px; 
+    text-shadow: 0 0 10px #000000;
+    
+   
+}
+
+
+
+.time{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+    
+}
+
+#videos{
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+
+.ikone:hover{
+
+    transform: scale(1.1); 
+
+    
+}
+
+#sekcija{
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.eventi{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#vazno{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: gold;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 3px;
+    background-color: red;
+    
+    
+    
+}
+
+#top{
+    text-align: center;
+   
+}
+
+#rezervacija{
+    background-image: url(slike\ za\ naslovnu/rezervacija.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 350px;
+    padding-bottom: 350px; 
+    text-shadow: 0 0 10px #000000;
+    
+}
+
+#reserved{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+#rezerva{
+    text-align: center;
+    color: #333333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    color: #555555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"],
+  input[type="submit"] {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #008080;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: gold;
+  }
+
+
+  #menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0; 
+  z-index: 2;
+
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: gold;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);   
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+  
+}
+
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+.menu a.active {
+    color:gold;
+}
